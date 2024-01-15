@@ -1,6 +1,6 @@
 ---
 layout: post
-title:  "Welcome to Jekyll!"
+title:  "Welcome to Jekyll version Gitblog!"
 date:   2024-01-15 14:00:01 +0900
 categories: jekyll update
 ---
