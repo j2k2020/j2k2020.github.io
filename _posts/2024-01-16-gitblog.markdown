@@ -1,0 +1,19 @@
+---
+layout: post
+title:  "GitBlog 만들기(1)"
+date:   2024-01-16 14:00:01 +0900
+categories: jekyll update
+---
+찾다보니 궁금한 포트들~<br>
+window cmd에서 명령어로 (netstat -ano) 또는 (netstat -ano | findstr 포트번호)를 주면
+사용중인 포트들을 확인할 수 있는데,, PID는 또 뭘까?
+
+* 사용중인 포트 종료하기<br>
+작업관리자 > 서비스로 이동하면 PID 리스트를 확인할 수 있는데 위에서 확인 PID 번호를 찾아 어떤 프로세스가 포트를 이용하고 있는지 확인한다.<br>
+(taskkill /f /pid 포트번호)이 명령어로 사용중인 포트를 종료할 수도 있다고 한다.<br>
+
+* 사용중인 포트는 그대로, 사용할 프로세스의 포트 변경하기<br>
+포트를 변경할 다양한 프로세스들이 있지만 본인이 사용하는 프로세스들에 대해서만 소개를 할 예정이다.<br>
+1) intelliJ 포트번호 변경하기<br>
+프로젝트 > application.properties 파일<br>
+(server.port = 포트번호)
