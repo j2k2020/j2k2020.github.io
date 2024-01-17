@@ -5,7 +5,8 @@ date:   2024-01-16 14:00:01 +0900
 categories: jekyll update
 ---
 찾다보니 궁금한 포트들~<br>
-window cmd에서 명령어로 (netstat -ano) 또는 (netstat -ano | findstr 포트번호)를 주면
+window cmd에서 명령어로 (netstat -ano) 또는 (netstat -ano | findstr 포트번호)
+(netstat -ano | findstr "LISTENING")를 주면
 사용중인 포트들을 확인할 수 있는데,, PID는 또 뭘까?
 
 * 사용중인 포트 종료하기<br>
